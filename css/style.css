@@ -1,0 +1,7 @@
+.container { text-align: center; }
+
+.container [class^="btn"] { background: linear-gradient(15deg, #44bd32 15%, transparent 65%); font-family: 'Tahoma', sans-serif; color: #44bd32; margin: 4px 2px; padding: 15px 30px; font-size: 16px; font-weight: bold; border-radius: 5px; border: solid #44bd32; cursor: pointer; background-position: 100% 0; background-size: 300%; transition: 0.6s; }
+
+.container [class^="btn"]:hover { background-position: 0 100%; transform: scale(1.1); color: white; border: none; }
+
+.container p { margin: 2em 5em; border: solid lightgray; padding: 15px; box-shadow: 12px 15px 15px gray; }
